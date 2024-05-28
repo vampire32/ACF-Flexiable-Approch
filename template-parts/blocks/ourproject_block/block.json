@@ -1,0 +1,9 @@
+{
+  "name": "ourproject_block",
+  "title": "Our Project",
+  "description": "A custom our project block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["project", "quote"],
+  "enqueue_style": "ourproject.scss"
+}

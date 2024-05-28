@@ -1,0 +1,109 @@
+.contact__us {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right calc(100%);
+
+  .inner {
+    position: relative;
+    z-index: 1;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px;
+
+    .section__heading {
+      font-size: 22pt;
+      line-height: 1.4;
+      color: #fff;
+      max-width: 570px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .contact__us--form--content {
+      margin-top: auto !important;
+
+      .single:first-child {
+        background-color: #30303B;
+      }
+
+      .single:last-child {
+        background-color: #D9D9D9;
+      }
+    }
+
+    .contact__us--text {
+      color: #fff;
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 65px 0 50px;
+
+      .mail__image {
+        width: 235px;
+        height: 235px;
+        margin: 0 auto 15px;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .description {
+        font-size: 18.4pt;
+        line-height: 1.4;
+      }
+    }
+
+    .contact__us--form {
+      padding: 45px 0 65px;
+
+      form {
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+
+        .form__field {
+          width: 100%;
+          border: none;
+          outline: none;
+          min-height: 40px;
+          padding: 15px;
+          margin-bottom: 20px;
+          font-size: 12pt;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 54, 66, 0.6);
+  }
+
+  .wpcf7-form-control-wrap {
+    position: relative;
+  }
+
+  .wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+  }
+}

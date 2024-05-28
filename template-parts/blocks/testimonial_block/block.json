@@ -1,0 +1,9 @@
+{
+    "name": "testimonial_block",
+    "title": "Testimonial",
+    "description": "A custom testimonial block block.",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["testimonial", "quote"],
+    "enqueue_style": "testimonial.scss"
+}

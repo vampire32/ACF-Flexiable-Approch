@@ -1,0 +1,8 @@
+{
+  "name": "button_block",
+  "title": "Button",
+  "description": "A custom Buttonblock.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["button", "quote"]
+}

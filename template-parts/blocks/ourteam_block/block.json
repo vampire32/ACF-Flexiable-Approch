@@ -1,0 +1,9 @@
+{
+  "name": "ourteam_block",
+  "title": "Our Team",
+  "description": "A custom our team block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["team", "quote"],
+  "enqueue_style": "ourteam.scss"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "service_block",
+  "title": "Service",
+  "description": "A custom service block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["testimonial", "quote"],
+  "enqueue_style": "service.scss"
+}
